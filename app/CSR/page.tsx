@@ -15,6 +15,7 @@ export default function CSR(){
     return (
         <div className="container">
             <h1>{message?.message ?? 'Loading...'}</h1>
+            <button>{message?.message ?? 'Loading Button...'}</button>
         </div>
     )
 }
