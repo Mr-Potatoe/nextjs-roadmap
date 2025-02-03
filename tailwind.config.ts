@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: 'var(--primary)',  // This binds the custom property to Tailwind
+        secondary: 'var(--secondary)',
+        accent: 'var(--accent)',
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
       },
     },
   },

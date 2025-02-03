@@ -13,7 +13,7 @@ interface Messages {
     message : string
 }
 
-export default async function About() {
+export default async function SSR() {
     const api_message : Messages = await getData();
     return (
         <div className="container">
